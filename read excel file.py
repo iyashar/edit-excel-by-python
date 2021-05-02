@@ -14,3 +14,6 @@ for i in range(sheet.ncols):
 for i in range(sheet.nrows):
     print(sheet.cell_value(i, 0))
 
+for i in range(sheet.ncols):
+    for j in range(sheet.nrows):
+        print(sheet.cell_value(j, i))
